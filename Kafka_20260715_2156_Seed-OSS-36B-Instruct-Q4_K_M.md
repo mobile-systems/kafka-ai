@@ -387,6 +387,7 @@ Final notes:
 - For production, use official Apache Kafka images or Confluent images with the latest version (check https://hub.docker.com/r/confluentinc/cp-kafka for latest tags).
 - Consider using Kubernetes for orchestration across multiple servers if the cluster is large—Docker Compose is for development/testing.
 - Enable JMX if needed for monitoring, but secure it properly (don't expose to public network).
+
 [End thinking]
 
 Чтобы настроить отказоустойчивый кластер Kafka с несколькими нодами в Docker (с использованием ZooKeeper), нам понадобятся:
